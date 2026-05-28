@@ -84,7 +84,7 @@ export default function App() {
           {[
             ["QR for links", "Website, Instagram, TikTok, LinkedIn, Facebook."],
             ["Barcode for codes", "SKU, product code, invoice number, internal ID."],
-            ["Static & fast", "Deploy easily to Netlify without backend cost."],
+            ["Static & fast", "Easily to convert."],
           ].map(([title, desc]) => (
             <AnimatedContent
               key={title}
