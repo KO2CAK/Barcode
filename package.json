@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"Add ESLint later if needed\""
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "clsx": "^2.1.1",
+    "face-api.js": "^0.22.2",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "postprocessing": "^6.39.1",
+    "qrcode.react": "^4.0.1",
+    "react": "^19.0.0",
+    "react-barcode": "^1.6.1",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.5.5",
+    "three": "^0.184.0"
+  },
+  "overrides": {
+    "node-fetch": "2.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.0"
+  }
+}
